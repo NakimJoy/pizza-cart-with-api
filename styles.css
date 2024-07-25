@@ -1,0 +1,127 @@
+body {
+    background-image: url(Pizza\ cart.jpg);
+    font-family: 'Arial', sans-serif;
+    /* background-color: #cdc0c0; */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #d85a7f;
+}
+
+.cart,
+.pizzas {
+    margin-top: 20px;
+
+}
+
+.cart h2,
+.pizzas h2 {
+    color: #dca0b2;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0c0c0c; /* Added border property */
+
+
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #0c0c0c;;
+}
+
+.table th {
+    background-color: #f3e2e9;
+    color: #d85a7f;
+}
+
+.table td button {
+    background-color: #82d0d7;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table td button:hover {
+    background-color: #82d0d7;
+}
+
+.message {
+    color: #de2d62;
+    font-weight: bold;
+}
+
+.pizza {
+    margin: 0.5em;
+    padding: 1.5em;
+    width: 15em;
+    border-radius: 0.6em;
+    float: left;
+    text-align: center;
+    background-color: #f3e2e9;
+}
+
+.pizza h5 {
+    color: #de0949;
+    margin: 0;
+}
+
+.pizza span {
+    display: block;
+    color: #777;
+}
+
+.pizza strong {
+    color: #cf7cc1;
+}
+
+.pizza .btn {
+    background-color: #e083c6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pizza .btn:hover {
+    background-color: #c94a6f;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #d85a7f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c94a6f;
+}
