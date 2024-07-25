@@ -83,7 +83,7 @@ document.addEventListener("alpine:init", () => {
                 });
             },
             init() {
-                const storedUsername = localStorage['user'];
+                const storedUsername = localStorage['username'];
                 if (storedUsername) {
                 this.username = storedUsername;
 
